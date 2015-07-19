@@ -29,3 +29,5 @@
 
 (define (process-network layers inputs)
   (foldl process-layer inputs layers))
+
+(provide process-network random-layer)
